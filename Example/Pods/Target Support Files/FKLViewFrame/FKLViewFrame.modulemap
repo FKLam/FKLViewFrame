@@ -1,0 +1,6 @@
+framework module FKLViewFrame {
+  umbrella header "FKLViewFrame-umbrella.h"
+
+  export *
+  module * { export * }
+}

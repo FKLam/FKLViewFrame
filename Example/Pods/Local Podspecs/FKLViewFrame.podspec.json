@@ -1,0 +1,22 @@
+{
+  "name": "FKLViewFrame",
+  "version": "0.1.0",
+  "summary": "A short description of FKLViewFrame.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FKLViewFrame",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FKLam": "lfk0120@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FKLViewFrame.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FKLViewFrame/Classes/**/*"
+}
