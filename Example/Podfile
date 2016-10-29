@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FKLViewFrame_Example' do
+  pod 'FKLViewFrame', :path => '../'
+
+  target 'FKLViewFrame_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
