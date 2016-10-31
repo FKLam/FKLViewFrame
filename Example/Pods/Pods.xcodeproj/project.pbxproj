@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		6DC639E86BFF8F16FF9E919FBF89A179 /* FKLViewFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6357EFA0E2018FE4261241555C645637 /* FKLViewFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FD7F2BB8D2F7416F35B81E0488D91E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A7126086777F0334407B49A4F27CB143 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D4448CB8D406ECAEB6A8B788F85D8 /* ReplaceMe.m */; };
+		996E24A21DC6F5060001024C /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 996E24A01DC6F5060001024C /* UIView+LayoutMethods.h */; };
+		996E24A31DC6F5060001024C /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 996E24A11DC6F5060001024C /* UIView+LayoutMethods.m */; };
 		B2AEC77F6EFBE16CE1309D92456DBCFB /* Pods-FKLViewFrame_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F31BAEADCF9C6AE06CB5649933B132 /* Pods-FKLViewFrame_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9DFDA3394BAE08AB1CAB3D2531C553B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C674D9F56C6376C6577918D11B78BBE3 /* Pods-FKLViewFrame_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B51CE9F98D6CFDEBB01A892E39212A65 /* Pods-FKLViewFrame_Example-dummy.m */; };
@@ -49,7 +50,8 @@
 		92208F5DD28506FD988BE5E8003277D5 /* FKLViewFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FKLViewFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94E707970D2B7C30658CA5B243F04655 /* Pods-FKLViewFrame_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FKLViewFrame_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9C2D4448CB8D406ECAEB6A8B788F85D8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		996E24A01DC6F5060001024C /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		996E24A11DC6F5060001024C /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
 		A71A6F3A7BB357C79836131DCAB5009E /* FKLViewFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FKLViewFrame-dummy.m"; sourceTree = "<group>"; };
 		AA1E70D661850126F7E59FBAEA24EC9F /* Pods-FKLViewFrame_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FKLViewFrame_Example.modulemap"; sourceTree = "<group>"; };
 		B435F6111976BE2B334060FD4A64E9F3 /* Pods-FKLViewFrame_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FKLViewFrame_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -131,7 +133,8 @@
 		4B5FF191C6963668EE966CB8DD64AEA3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9C2D4448CB8D406ECAEB6A8B788F85D8 /* ReplaceMe.m */,
+				996E24A01DC6F5060001024C /* UIView+LayoutMethods.h */,
+				996E24A11DC6F5060001024C /* UIView+LayoutMethods.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996E24A21DC6F5060001024C /* UIView+LayoutMethods.h in Headers */,
 				6DC639E86BFF8F16FF9E919FBF89A179 /* FKLViewFrame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,8 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996E24A31DC6F5060001024C /* UIView+LayoutMethods.m in Sources */,
 				F95DFF993745BD21C0E59C33FA2E6E00 /* FKLViewFrame-dummy.m in Sources */,
-				A7126086777F0334407B49A4F27CB143 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
