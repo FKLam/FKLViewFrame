@@ -1,5 +1,5 @@
 PODS:
-  - FKLViewFrame (0.1.0)
+  - FKLViewFrame (0.1.1)
 
 DEPENDENCIES:
   - FKLViewFrame (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FKLViewFrame: 95c82b107d4a78509f3a650c6eb59226ddafe94c
+  FKLViewFrame: 112d89baebf6fd1a406035911308c27b60b56cd1
 
 PODFILE CHECKSUM: 8b1374e9f6b5f772630dd167b9f24a603526e025
 
