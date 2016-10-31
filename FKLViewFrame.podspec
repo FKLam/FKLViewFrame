@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'FKLViewFrame/Classes/**/*'
   
   # s.resource_bundles = {
   #   'FKLViewFrame' => ['FKLViewFrame/Assets/*.png']
