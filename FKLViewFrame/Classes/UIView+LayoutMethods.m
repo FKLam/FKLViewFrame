@@ -9,7 +9,7 @@
 #import "UIView+LayoutMethods.h"
 
 @implementation UIView (LayoutMethods)
-// coordinator getters
+// 坐标 getters 方法
 - (CGFloat)height
 {
     return self.frame.size.height;

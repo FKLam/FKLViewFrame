@@ -4,7 +4,7 @@
 //
 //  Created by FKLam on 16/10/31.
 //
-//
+//  UIView 分类
 
 #import <UIKit/UIKit.h>
 
@@ -22,7 +22,7 @@ static UIScreenType UIScreenType_iPhone6P = 414.0f;
 
 @interface UIView (LayoutMethods)
 
-// coordinator getters
+// 坐标的 getter 方法
 - (CGFloat)height;
 - (CGFloat)width;
 - (CGFloat)x;
@@ -37,6 +37,7 @@ static UIScreenType UIScreenType_iPhone6P = 414.0f;
 - (CGFloat)bottom;
 - (CGFloat)right;
 
+// 坐标的 setter 方法
 - (void)setX:(CGFloat)x;
 - (void)setLeft:(CGFloat)left;
 - (void)setY:(CGFloat)y;
